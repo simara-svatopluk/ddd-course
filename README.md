@@ -2,14 +2,14 @@
 
 Domain-Driven Design... praktický přístup k vývoji software zaměřený na cílovou problematiku - doménu.
 
-## Cíle kurzu
+## Cíle
 
 * Jak přemýšlet nad problémy libovolné složitosti
 * Jak je modelovat
 * Na co se zaměřit a co zanedbat
 * Jak psát kvalitní, udržovatelný a otestovaný kód.
 
-## Forma kurzu
+## Forma
 
 * Přednášky + materiály dopředu + diskuze po přednášce
 * 1x měsíčně

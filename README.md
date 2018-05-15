@@ -2,18 +2,20 @@
 
 Domain-Driven Design... praktický přístup k vývoji software zaměřený na cílovou problematiku - doménu.
 
-V tomto kurzu si ukážeme
-* jak přemýšlet nad problémy libovolné složitosti
-* jak je modelovat
-* na co se zaměřit a co zanedbat
-* jak psát kvalitní, udržovatelný a otestovaný kód.
+## Cíle kurzu
+
+* Jak přemýšlet nad problémy libovolné složitosti
+* Jak je modelovat
+* Na co se zaměřit a co zanedbat
+* Jak psát kvalitní, udržovatelný a otestovaný kód.
 
 ## Forma kurzu
 
 * Přednášky + materiály dopředu + diskuze po přednášce
 * 1x měsíčně
-* [v Shopsysu](https://mapy.cz/zakladni?x=18.2738859&y=49.8575387&z=17&source=firm&id=1548795&q=shopsys)
-* přihlaste se na....
+* [V Shopsysu](https://mapy.cz/zakladni?x=18.2738859&y=49.8575387&z=17&source=firm&id=1548795&q=shopsys)
+* Přihlaste se na....
+* Zdarma
 
 ## Témata
 
@@ -29,3 +31,21 @@ V tomto kurzu si ukážeme
 1. **Formuláře/Konzole/Api** - Funkční aplikace napojená na cokoliv si vzpomenete
 
 ... další témata kolem bounded kontextů a jejich propojení...
+
+## Cílová skupina
+
+* Programátoři
+* Projekťáci
+* UXáci
+* Testeři
+
+Ano, DDD není jenom pro programátory, je pro celou IT sféru, a možná zasahuje i dále. Nelze totiž modelovat případy užití pokud má projekťák všechno jako tabulku. Musíme být všichni naladěni podobně.
+
+# Už mám totiž dost...
+* nesmyslného UI
+* tabulkového přemýšlení
+* přemýšlení ve vazbách
+* logiky ve službách
+* přemýšlení o pravidlech namísto přemýšlení nad problémem
+
+Toho všeho mám dost, chci rozšířit povědomí, že software jde dělat lépe. Je nad problémy potřeba ale začít přemýšlet jinak.

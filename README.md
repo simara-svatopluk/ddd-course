@@ -7,7 +7,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 * Jak přemýšlet nad problémy libovolné složitosti
 * Jak je modelovat
 * Na co se zaměřit a co zanedbat
-* Jak psát kvalitní, udržovatelný a otestovaný kód.
+* Jak psát kvalitní, udržovatelný a otestovaný kód
 
 ## Forma
 

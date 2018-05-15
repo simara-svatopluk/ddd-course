@@ -46,6 +46,6 @@ Ano, DDD není jenom pro programátory, je pro celou IT sféru, a možná zasahu
 * tabulkového přemýšlení
 * přemýšlení ve vazbách
 * logiky ve službách
-* přemýšlení o pravidlech namísto přemýšlení nad problémem
+* pravidel namísto přemýšlení nad problémem
 
 Toho všeho mám dost, chci rozšířit povědomí, že software jde dělat lépe. Je nad problémy potřeba ale začít přemýšlet jinak.

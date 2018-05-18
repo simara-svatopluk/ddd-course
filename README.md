@@ -14,7 +14,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 * Přednášky + materiály dopředu + diskuze po přednášce
 * 1x měsíčně
 * [V Shopsysu](https://mapy.cz/zakladni?x=18.2738859&y=49.8575387&z=17&source=firm&id=1548795&q=shopsys)
-* Přihlaste se na.... zatím na firemní slacku
+* Přihlaste se na.... zatím na slacku
 * Zdarma
 
 ## Témata

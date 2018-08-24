@@ -13,12 +13,12 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 
 * Přednášky + materiály dopředu + diskuze po přednášce
 * 1x měsíčně
-* v Ostravě
-* Přihlaste se na.... zatím na slacku
+* v Ostravě a v Brně
 * Zdarma
 
 ## Témata
 
+1. **Přehled** - přehled základních konceptů
 1. **Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce
 1. **Model** - jak přemýšlet jinak než v tabulkách
 1. **Implementační model** - zjednodušení modelu (agregáty, entity, value objekty)
@@ -40,12 +40,3 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 * Testeři
 
 Ano, DDD není jenom pro programátory, je pro celou IT sféru, a možná zasahuje i dále. Nelze totiž modelovat případy užití pokud má projekťák všechno jako tabulku. Musíme být všichni naladěni podobně.
-
-# Už mám totiž dost...
-* nesmyslného UI
-* tabulkového přemýšlení
-* přemýšlení ve vazbách
-* logiky ve službách
-* pravidel namísto přemýšlení nad problémem
-
-Toho všeho mám dost, chci rozšířit povědomí, že software jde dělat lépe. Je nad problémy potřeba ale začít přemýšlet jinak.

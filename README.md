@@ -12,11 +12,17 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 ## Forma
 
 * Přednášky + materiály dopředu + diskuze po přednášce
-* 1x měsíčně
+* 1x za 4 týdny ve středu
 * v Ostravě a v Brně
 * Zdarma
 
-## Témata
+## Přednášky
+
+1. **Přehled** - materiály - [Ostrava 12.9.](https://www.facebook.com/events/2221134194773795/) - Brno 26.9.
+1. **Jazyk** - materiály - Ostrava 10.10 - Brno 24.10.
+...
+
+## Připravená témata
 
 1. **Přehled** - přehled základních konceptů
 1. **Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce

@@ -1,6 +1,6 @@
 # Kurz Domain-Driven Design
 
-![DDD logo](ddd_50.png)
+![DDD logo](ddd_small.png)
 
 Domain-Driven Design... praktický přístup k vývoji software zaměřený na cílovou problematiku - doménu. DDD je o přemýšlení, náhledu a modelování, není spojený s žádným frameworkem, a vlastně ani žádnou technologií či konkrétním programovacím jazykem.
 
@@ -24,7 +24,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 1. **Jazyk** - Ostrava 10.10 - Brno 24.10.
 1. **Model** - Ostrava 7.11. - Brno 21.11.
 1. **Implementační model** - Ostrava 5.12. - Brno 19.12.
-1. ....
+1. ...
 
 ## Připravená témata
 

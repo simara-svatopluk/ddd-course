@@ -1,6 +1,11 @@
 # 1. Overview
 
-* Domain-Driven Desing is ... software approach ...
+Domain-driven design is a software design that focuses on understanding underlying business. It is useful for long-term projects because it leads to high-quality software that serves users. It helps when dealing with difficult problems, keeps track of core problems and prevents us from getting lost in the code.
+
+Domain is an area that project covers, it has its own terminology, requirements, problems to solve. Domain has its natural boundaries too, it does not cover everything.
+
+
+
 * DDD is based on domain
 * Domain is ...
 * Domain in expressed by natural language

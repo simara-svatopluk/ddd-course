@@ -29,6 +29,12 @@ Language in bounded context expresses model. Model, or mental model is what we i
 
 Model is the picture we imagine. Modeling is a process that aims to capture key concepts of reality and ignores irrelevant details.
 
+### Code
+Code is a model representation, it is the model written down. We can calso compose the model back by reading the code, and we do it often.
+
+### Layers
+To separate the domain model code from the 
+
 * DDD is based on domain
 * Domain is ...
 * Domain in expressed by natural language

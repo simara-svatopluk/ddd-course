@@ -33,7 +33,8 @@ Model is the picture we imagine. Modeling is a process that aims to capture key 
 Code is a model representation, it is the model written down. We can calso compose the model back by reading the code, and we do it often.
 
 ### Layers
-To separate the domain model code from the 
+To separate the domain model code from the rest of the rest of system like persistence or user interface we use software layers.
+
 
 * DDD is based on domain
 * Domain is ...

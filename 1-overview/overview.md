@@ -6,13 +6,18 @@ Domain-driven design is a software design that focuses on understanding underlyi
 Domain is an area that project covers, it has its own terminology, requirements, problems to solve. Domain has its natural boundaries too, it does not cover everything.
 
 ### Domain Language
-Every domain has its own terms, its own language. A term in a domain means something completely different in another domain. Terms that are crucial are well known to everyone who understands a given domain. There terms forms domain language.
+Every domain has its own terms, its own language. A term in a domain means something completely different in another domain. Terms that are crucial are well known to everyone who understands a given domain. There terms forms the domain language.
 
-And yet the domain language is a natural language full of ambiguity, multiple terms expressing the same, misunderstanding and crosstalks.
+And yet the domain language is a natural language full of ambiguity, multiple terms that express the same, full of misunderstanding and crosstalks.
 
 ### Ubiquitous language
+To reduce natural language ambiguity we introduce ubiquitous language. It is a subset of domain language, a stricter version. When we have multiple terms for the same domain aspect, we have to choose one and use it exclusively.
 
+The strict term became part of everyday users' life, communication between experts and programmers, programmers' work. The term is everywhere, it became ubiquitous.
 
+Ubiquitous language connects users, domain experts, programmers, so it creates project backbone. It may not be a bad idea to document key terms, especially if terms have conditions of use. The documentation may help new programmers, as well as users, to get into the project.
+
+Be careful, ubiquitous language, this definitive, specific language must always come from domain experts or users, their stories and their conversations. We must not invent our terms, our language. Never.
 
 
 * DDD is based on domain

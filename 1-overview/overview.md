@@ -33,21 +33,11 @@ Model is the picture we imagine. Modeling is a process that aims to capture key 
 Code is a model representation, it is the model written down. We can calso compose the model back by reading the code, and we do it often.
 
 ### Layers
-To separate the domain model code from the rest of the rest of system like persistence or user interface we use software layers.
+To isolate the domain model code from the rest of the rest of system like persistence or user interface we use software layers.
+The goal is to have the domain code as much separated as spossible. We achive this by interfaces that iverse dependencies and application objects that wraps domain objects but do not affect them.
 
+![layers isolation](layers.png)
 
-* DDD is based on domain
-* Domain is ...
-* Domain in expressed by natural language
-* Natural language is ... and can be formalized into ubiquitous language
-* Ubiquitous language is ...
-* Ubiquitous language is valid within bounded context
-* Bounded context is ...
-* Language in bounded context expresses model
-* Model is ...
-* Domain model is isolated by layers.
-* Layer is ...
-* Layers isolates domain model ...
-* Model can be translated into code like classes, entities, value objects, aggregates
+## Concepts summary
 
-![relation between concepts](overview.png)
+![relation between concepts](concepts.png)

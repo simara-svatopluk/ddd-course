@@ -34,9 +34,7 @@ Code is a model representation, it is the model written down. We can calso compo
 
 ### Layers
 To isolate the domain model code from the rest of the rest of system like persistence or user interface we use software layers.
-The goal is to have the domain code as much separated as spossible. We achive this by interfaces that iverse dependencies and application objects that wraps domain objects but do not affect them.
-
-![layers isolation](layers.png)
+The goal is to have the domain code as much separated as spossible. We achive this by interfaces that iverse dependencies and application objects that wraps domain objects but do not affect them. [diagram](layers_isolation.png)
 
 ## Concepts summary
 

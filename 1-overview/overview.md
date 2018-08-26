@@ -19,6 +19,15 @@ Ubiquitous language connects users, domain experts, programmers, so it creates p
 
 Be careful, ubiquitous language, this definitive, specific language must always come from domain experts or users, their stories and their conversations. We must not invent our terms, our language. Never.
 
+### Bounded context
+Language, terms, conditions, mental models - they are valid only within a given context, in a given boundaries. Bounded context represent these bounderies.
+
+We cannot use a term from a different company in our team because it needs context, a boundary that the term is valid in. We cannot use model from a different team because the model is valid in a different conditions - boundaries.
+
+### Model
+Language in bounded context expresses model. Model, or mental model is what we imagine whear a story. A story is told in a language within a concrete context. To be able of proper modeling we need to know the domain, ubiquitous language terms and we also have to know the bounded context.
+
+Model is the picture we imagine. Modeling is a process that aims to capture key concepts of reality and ignores irrelevant details.
 
 * DDD is based on domain
 * Domain is ...

@@ -11,9 +11,7 @@ Every domain has its own terms, its own language. A term in a domain means somet
 And yet the domain language is a natural language full of ambiguity, multiple terms that express the same, full of misunderstanding and crosstalks.
 
 ### Ubiquitous language
-To reduce natural language ambiguity we introduce ubiquitous language. It is a subset of domain language, a stricter version. When we have multiple terms for the same domain aspect, we have to choose one and use it exclusively.
-
-The strict term became part of everyday users' life, communication between experts and programmers, programmers' work. The term is everywhere, it became ubiquitous.
+As we aren't domain experts, we have to learn the domain, from experts, by their language. Domain experts have to extract the most critical concepts and terms from their domain and teach us them. As we are learning, we use domain terms in communication, code, documentation, in communication with users of our system. These domain terms started to be everywhere, they became ubiquitous.
 
 Ubiquitous language connects users, domain experts, programmers, so it creates project backbone. It may not be a bad idea to document key terms, especially if terms have conditions of use. The documentation may help new programmers, as well as users, to get into the project.
 

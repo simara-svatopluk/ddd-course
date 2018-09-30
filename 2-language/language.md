@@ -4,7 +4,7 @@ Language is a communication tool, a tool we use to express ourselves and to unde
 
 Let's take a look how do we usually assume communication works:
 
-IMAGE: person's brain communicates with other person's brain via mouths
+![person's brain communicates with other person's brain via mouths](simple.png)
 
 An optimal scenario is when we express ourselves exactly how do we think and the other one understands our words exactly as they are said.
 But this scenario is never true. We all have different experiences, different feelings, different flow of ideas, different assumptions.
@@ -16,8 +16,7 @@ The other person understands the language, but as discussed earlier, the other p
 Again, because the person have to translate the language into own ideas.
 
 So, this is what happens when two people communicate in a common language:
-
-IMAGE: a person translates ideas into language, the language is accepted by the other person and translates the language into own ideas
+![a person translates ideas into language, the language is accepted by the other person and translates the language into own ideas](2translations.png)
 
 We experiance double translation even with a common language. And as we can imagine, translation means possibility of misunderstanding, a possibility of error.
 
@@ -26,7 +25,7 @@ We experiance double translation even with a common language. And as we can imag
 When we speak with a foreigner, we have to use a language that we understand both.
 Let's say I'm Czech, the foreigner is German and we both sort of speak English.
 
-IMAGE: I have to translate ideas into Czech language, then language into English, the other one have to translate English into German and then language into ideas.
+![I have to translate ideas into Czech language, then language into English, the other one have to translate English into German and then language into ideas](4translations.png)
 
 We ended up with four translations! This situation definitelly causes misunderstandings and problems.
 
@@ -39,9 +38,9 @@ A project manager uses his own dialect, something like "goal, bussiness, deadlin
 
 A typical application nowdays looks like:
 
-IMAGE: User -> UI -> JS -> API -> PHP -> SQL -> PHP -> API -> JS -> UI -> User
+![User -> UI -> JS -> API -> PHP -> SQL -> PHP -> API -> JS -> UI -> User](systems.png)
 
-Usually the UI is designed by UX/Graphics guy, JS is done by frontend developer, API is designed by agreement between JS guy and PHP guy, PHP is done by backend developer and SQL is managed by a database specialist. When we count the user, we have 5 different people who have different ideas and think flows. We ended up with enormous amount of translations between people and also between system parts. In this kind of project it is almost impossible to not make a misunderstanding nor translation error. This kind of project is always a never ending story of "idiotic users that don't understand the system".
+Usually the UI is designed by UX/Graphics guy, JS is done by frontend developer, API is designed by agreement between JS guy and PHP guy, PHP is done by backend developer and SQL is managed by a database specialist. When we count the user, we have 5 different people who have different ideas and think flows. We ended up with enormous amount of translations between people and also between system parts. In this kind of project it is almost impossible to not make a misunderstanding nor translation error. This kind of project is always a never ending story of "idiotic users that don't understand the system" and "idiotic project managers that have no idea what is going on".
 
 ## Ubiquitous language
 

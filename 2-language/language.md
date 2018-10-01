@@ -32,7 +32,7 @@ We ended up with four translations! This situation definitely causes misundersta
 We can go back to the software sphere. In one team we usually speak by the same national language, but we have different professions, and even we speak by the same language, we imagine something different by the same terms.
 
 I'm a programmer, I use programmers' dialect to describe problems. You would hear something like "server, version control system, code, system configuration".
-A project manager uses his own dialect, something like "goal, business, deadline, meeting". When we speak with the project manager, we face an as same problem as Czechs and Germans, we have to translate from our dialect so the other one understands something and he has to translate too. So again, we end up with four translations during everyday conversation.
+A project manager uses his own dialect, something like "goal, business, deadline, meeting". When we speak with the project manager, we face an as same problem as Czechs and Germans, we have to translate from our dialect so the other one understands, and he has to translate too. So again, we end up with four translations during everyday conversation.
 
 ## Translation in an application
 
@@ -40,15 +40,15 @@ A typical application nowdays looks like:
 
 ![User -> UI -> JS -> API -> PHP -> SQL -> PHP -> API -> JS -> UI -> User](systems.png)
 
-Usually, the UI is designed by UX/Graphics guy, JS is done by frontend developer, API is designed by agreement between JS guy and PHP guy, PHP is done by backend developer and SQL is managed by a database specialist. When we count the user, we have 5 different people who have different ideas and think flows. We ended up with an enormous amount of translations between people and also between system parts. In this kind of project, it is almost impossible to not make a misunderstanding nor translation error. This kind of project is always a never-ending story of "idiotic users that don't understand the system" and "idiotic project managers that have no idea what is going on".
+Usually, the UI is designed by UX/Graphics guy, JS is done by frontend developer, API is designed by agreement between JS guy and PHP guy, PHP is done by backend developer and SQL is managed by a database specialist. When we count also the user, we have 5 different people who have different ideas and think flows. We ended up with an enormous amount of translations between people and also between system parts. In this kind of project, it is almost impossible to not make a misunderstanding nor translation error. This kind of project is always a never-ending story of "idiotic users that don't understand the system" and "idiotic project managers that have no idea what is going on".
 
 ## Ubiquitous language
 
-As we see, the most important problem in communication is translations and misunderstandings.
+As we see, the most important problems in communication are translations and misunderstandings.
 
 The solution is to use one language within the project, all team members and users. A language that comes from the underlying domain, from domain experts' language.
 
-As we discuss problems with people who really understand the domain, with domain experts. We hear them using terms for domain concepts over and over again. We have to focus on understanding and learning these terms and also focus on using these terms in our standard communication. Once we adopt these terms, we use them in the documentation, in speech with different team members, in code while everyone understands them. And suddenly we don't have to translate these terms anymore, because they became ubiquitous. Terms created a small language, the ubiquitous language, and this language became the backbone of the project.
+As we discuss problems with people who really understand the domain, with domain experts, we hear them using terms for domain concepts over and over again. We have to focus on understanding and learning these terms and also focus on using these terms in our standard communication. Once we adopt these terms, we use them in the documentation, in speech with different team members, in code while everyone understands them. And suddenly we don't have to translate these terms anymore, because they became ubiquitous. Terms created a small language, the ubiquitous language, and this language became the backbone of the project.
 
 Once we use the ubiquitous language, translation count drastically decreases, communication and code become naturally straightforward. And what more - when a new programmer joins our team, there is no need for a senior developer to introduce everything. An underlying domain can be explained by any team member, or user, by using terms of ubiquitous language.
 

@@ -22,7 +22,7 @@ We experience double translation even with a common language. And as we can imag
 
 ## Translation problem
 
-When we speak with a foreigner, we have to use a language that we understand both.
+When we speak with a foreigner, we have to use a language that we both understand.
 Let's say I'm Czech, the foreigner is German and we both sort of speak English.
 
 ![I have to translate ideas into the Czech language then language into English, the other one have to translate English into German and then language into ideas](4translations.png)
@@ -32,7 +32,7 @@ We ended up with four translations! This situation definitely causes misundersta
 We can go back to the software sphere. In one team we usually speak by the same national language, but we have different professions, and even we speak by the same language, we imagine something different by the same terms.
 
 I'm a programmer, I use programmers' dialect to describe problems. You would hear something like "server, version control system, code, system configuration".
-A project manager uses his own dialect, something like "goal, business, deadline, meeting". When I speak with the project manager, we face an as same problem as Czechs and Germans, we have to agree on a common language and translate into it our dialects. So again, we end up with four translations during everyday conversation.
+A project manager uses his own dialect, something like "goal, business, deadline, meeting". When we speak with the project manager, we face an as same problem as Czechs and Germans, we have to translate from our dialect so the other one understands something and he has to translate too. So again, we end up with four translations during everyday conversation.
 
 ## Translation in an application
 

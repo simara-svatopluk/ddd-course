@@ -63,4 +63,4 @@ Ano, DDD není jenom pro programátory, je pro celou IT sféru, a možná zasahu
 * FOWLER, Martin. UbiquitousLanguage. *MartinFowler.com* [online]. 2006 [2017-11-28]. Available: [https://martinfowler.com/bliki/UbiquitousLanguage.html](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 * VERNON, Vaughn. *Implementing domain-driven design.* Upper Saddle River, NJ: Addision-Wesley, 2013. ISBN 978-0-321-83457-7. [kniha na Amazonu](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)
 * CLEMSON, Toby. *Testing Strategies in a Microservice Architecture* [online]. 2014 [2018-01-11]. Available: [https://martinfowler.com/articles/microservice-testing/](https://martinfowler.com/articles/microservice-testing/)
-* Sbírka od Honzy Kuchaře: https://gitlab.grifart.cz/jkuchar1/eventsourcing-cqrs-simple-app/tree/master
+* Sbírka materiálů od Honzy Kuchaře: https://gitlab.grifart.cz/jkuchar1/eventsourcing-cqrs-simple-app/tree/master

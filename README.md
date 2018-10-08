@@ -23,7 +23,8 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 1. **Přehled** -
   [materiály (en)](1-overview/overview.md) -
   [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-1-pehled) -
-  [Ostrava 12.9.](https://www.facebook.com/events/2221134194773795/) -
+  [Ostrava 12.9.](https://www.facebook.com/events/2221134194773795/)
+  [záznam](https://www.youtube.com/watch?v=Bd_ntFcqN7M) -
   [Brno 3.10.](https://www.facebook.com/events/1833155483466249)
 1. **Jazyk** - 
   [materiály (en)](2-language/language.md) -

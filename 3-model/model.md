@@ -47,19 +47,77 @@ There are always many ways how to implement the abstract model.
 The implementation can be made in smooth and simple or in overcomplicated way. It is surprisingly easy to end up with a complicated solution.
 But we will take the effort and introduce strategies and concepts that will help us simplify the model.
 
-## Concrete associations
+## Concrete association
 
 Associations between objects are naturally two-ways. But it's really difficult to think, work and program with two-ways associations. We try to simplify them if it's possible.
 
 Imagine you are modeling a product and it's price. We can imagine the price as a sticker on the product. The sticker is on the product and of course, the product is labeled with the sticker. So it seems there have to be a two-way association betwenn price and sticker objects.
 
+TODO IMAGE
+
 But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way. This simple change make thinking about product and price easier, and also the resulting code will be much easier.
+
+TODO IMAGE
 
 Two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
 
+## Entity
 
+Who am I? I'm a unique person.
+I can cut my hair, change a name if I marry, or have an accident and my body shape might change.
+My look might change, people might call me differently, but it is still me.
+It is my identity what identifies me, nothing else.
 
+Entities have the same story.
+They are unique in the system and if their properties changes, they are still the same entities.
 
+### Identity
 
+An entity is identified by an identity.
+This has some practical consequences.
+A unique entity must be only one in the system, stored as one piece of memory.
+When we compare entities, we have to compare only their identities.
+If the identity is same, the entity is same.
 
+## Value Object
 
+We have to paint a room, what do we need?
+A paint of a given color.
+While we are painting we do not care which drop of paint is where, as long as we have enough paint we are able to finish the job.
+And if we spill a can, we can replace it with a new one without noticing a difference.
+
+Value objects represent objects without identity.
+
+As well as paint is identified by its color, a value object is identified by all of its properties.
+If two value objects have the same properties, we are not able to distinguish them, they are identical for us.
+Thanks to this property we do not care which instance we are using unless it has the right properties.
+
+Value objects are immutable, side-effect free and easier to understand than entities.
+We are not able to change value object properties, instead of that we have to create always a new one.
+Immutability allows us also to share value objects over the whole system and save memory if necessary.
+
+### Identity and identifier
+
+Entities are identified by an identity.
+How do we select an entity from a collection?
+We need a tool which also identifies entity, and that tool can be an identifier.
+
+An identifier can be a practical implementation of an identity.
+Identifier as a value object really fit - if any property of an identifier is different, the identifier is different.
+If all attributes of the identifier are the same, it is the same identifier.
+
+## Aggregate
+
+An aggregate is a group of objects that live and die together.
+Aggregate parts do not make sense without each other, they make sense only if they are all together.
+
+We cannot access inner objects of an aggregate from outside, we have to use the main object always, so-called aggregate root.
+Aggregate is an encapsulated single unit (OOP starts to make sense!).
+Thanks to the encapsulation, it is easy to understand the aggregate and it is also easy to refactor the internal structure of aggregate.
+
+### Separated aggregates
+
+Aggregates must be understood whole or not be understood at all, must be created wholly or not be created at all, must be persisted whole or not be persisted at all, must be received from a repository (database or any storage) whole or not be received at all.
+
+This means that we cannot have associations between aggregates.
+This separation forces us to think more about aggregates responsibilities, but it results in much easier model and code.

@@ -41,3 +41,9 @@ But we have one great tool that helps us, the language.
 Domain expert stories, terms that they repeat over and over again, all these are good starting points.
 The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
 
+# Implementation model
+
+There are always many ways how to implement the abstract model.
+The implementation can be made in smooth and simple or in overcomplicated way. It is surprisingly easy to end up with a complicated solution.
+But we will take the effort and introduce strategies and concepts that will help us simplify the model.
+

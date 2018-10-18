@@ -31,8 +31,12 @@ The project evolves, our domain understanding evolves, so the model evolves as w
 
 ## Model and Language
 
-Modeling is a difficult process, it is difficult to say where to start, how deep should we go, what should we focus at, what to omit.
+Modeling is a difficult process, it is difficult to say where to start, how deep should we go, what should we focus on, what to omit.
 But we have one great tool that helps us, the language.
 Domain expert stories, terms that they repeat over and over again, all these are good starting points.
-Language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
+The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
+
+## Not only Data
+
+Most of us are great in modeling data. But what about modeling responsibilities, modeling behavior? Let's focus also on these aspects of modeling for a better result.
 

@@ -16,7 +16,7 @@ We are not able to describe the whole reality and describing it is not really ou
 
 We can tell stories that cover important concepts of reality.
 We can convert the stories to use cases.
-To explain deaplier these use cases we can use diagrams, images.
+To explain deeper these use cases we can use diagrams, images.
 And in the end, we convert all this knowledge into a source code.
 
 > **Not only Data**
@@ -30,7 +30,7 @@ Validation is done by domain experts who have to confirm or refute the abstract 
 
 TODO IMAGE reality is modeled by an abstract model and abstract model is validated by reality
 
-Validation and modeling are bounded continous processes.
+Validation and modeling are bounded continuous processes.
 The project evolves, our domain understanding evolves, so the model evolves as well.
 
 ## Model and Language
@@ -44,22 +44,22 @@ The language also shapes the way we think, and when we think in domain terms, th
 # Implementation model
 
 There are always many ways how to implement the abstract model.
-The implementation can be made in smooth and simple or in overcomplicated way. It is surprisingly easy to end up with a complicated solution.
+The implementation can be made in smooth and simple or in an overcomplicated way. It is surprisingly easy to end up with a complicated solution.
 But we will take the effort and introduce strategies and concepts that will help us simplify the model.
 
-## Concrete association
+## Concrete Association
 
 Associations between objects are naturally two-ways. But it's really difficult to think, work and program with two-ways associations. We try to simplify them if it's possible.
 
-Imagine you are modeling a product and it's price. We can imagine the price as a sticker on the product. The sticker is on the product and of course, the product is labeled with the sticker. So it seems there have to be a two-way association betwenn price and sticker objects.
+Imagine you are modeling a product and it's price. We can imagine the price as a sticker on the product. The sticker is on the product and of course, the product is labeled with the sticker. So it seems there has to be a two-way association between price and sticker objects.
 
 TODO IMAGE
 
-But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way. This simple change make thinking about product and price easier, and also the resulting code will be much easier.
+But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way. This simple change makes thinking about product and price easier, and also the resulting code will be much easier.
 
 TODO IMAGE
 
-Two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
+A two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
 
 ## Entity
 
@@ -77,7 +77,7 @@ An entity is identified by an identity.
 This has some practical consequences.
 A unique entity must be only one in the system, stored as one piece of memory.
 When we compare entities, we have to compare only their identities.
-If the identity is same, the entity is same.
+If the identity is the same, the entity is the same.
 
 ## Value Object
 
@@ -100,7 +100,7 @@ Immutability allows us also to share value objects over the whole system and sav
 
 Entities are identified by an identity.
 How do we select an entity from a collection?
-We need a tool which also identifies entity, and that tool can be an identifier.
+We need a tool which also identifies an entity, and that tool can be an identifier.
 
 An identifier can be a practical implementation of an identity.
 Identifier as a value object really fit - if any property of an identifier is different, the identifier is different.
@@ -120,4 +120,4 @@ Thanks to the encapsulation, it is easy to understand the aggregate and it is al
 Aggregates must be understood whole or not be understood at all, must be created wholly or not be created at all, must be persisted whole or not be persisted at all, must be received from a repository (database or any storage) whole or not be received at all.
 
 This means that we cannot have associations between aggregates.
-This separation forces us to think more about aggregates responsibilities, but it results in much easier model and code.
+This separation forces us to think more about aggregates responsibilities, but it results in a much easier model and code.

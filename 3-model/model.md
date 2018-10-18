@@ -53,12 +53,13 @@ Associations between objects are naturally two-ways. But it's really difficult t
 
 Imagine you are modeling a product and it's price. We can imagine the price as a sticker on the product. The sticker is on the product and of course, the product is labeled with the sticker. So it seems there has to be a two-way association between price and sticker objects.
 
-TODO IMAGE
+![product is in two-way association with price](two-way.png)
 
-But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way. This simple change makes thinking about product and price easier, and also the resulting code will be much easier.
+But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way.
 
-TODO IMAGE
+![product is in one-way association with price](single-way.png)
 
+This simple change makes thinking about product and price much easier, and also the resulting code will be much easier.
 A two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
 
 ## Entity

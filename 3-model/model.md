@@ -41,7 +41,7 @@ But we have one great tool that helps us, the language.
 Domain expert stories, terms that they repeat over and over again, all these are good starting points.
 The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
 
-# Implementation model
+# Implementation Model
 
 There are always many ways how to implement the abstract model.
 The implementation can be made in smooth and simple or in an overcomplicated way. It is surprisingly easy to end up with a complicated solution.
@@ -55,11 +55,11 @@ Imagine you are modeling a product and it's price. We can imagine the price as a
 
 ![product is in two-way association with price](two-way.png)
 
-But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way.
+But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be only one-way.
 
 ![product is in one-way association with price](single-way.png)
 
-This simple change makes thinking about product and price much easier, and also the resulting code will be much easier.
+This simple change makes thinking about product and price much easier, and also the resulting code is simpler.
 A two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
 
 ## Entity
@@ -97,7 +97,7 @@ Value objects are immutable, side-effect free and easier to understand than enti
 We are not able to change value object properties, instead of that we have to create always a new one.
 Immutability allows us also to share value objects over the whole system and save memory if necessary.
 
-### Identity and identifier
+### Identity and Identifier
 
 Entities are identified by an identity.
 How do we select an entity from a collection?
@@ -116,7 +116,7 @@ We cannot access inner objects of an aggregate from outside, we have to use the 
 Aggregate is an encapsulated single unit (OOP starts to make sense!).
 Thanks to the encapsulation, it is easy to understand the aggregate and it is also easy to refactor the internal structure of aggregate.
 
-### Separated aggregates
+### Aggregates are Separated
 
 Aggregates must be understood whole or not be understood at all, must be created wholly or not be created at all, must be persisted whole or not be persisted at all, must be received from a repository (database or any storage) whole or not be received at all.
 

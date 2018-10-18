@@ -37,5 +37,6 @@ Domain expert stories, terms that they repeat over and over again, all these are
 The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
 
 > **Not only Data**
+> 
 > Most of us are great in modeling data. But what about modeling responsibilities, modeling behavior? Let's focus also on these aspects of modeling for a better result.
 

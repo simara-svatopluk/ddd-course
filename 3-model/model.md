@@ -9,7 +9,7 @@ A customer wants to have a new functionality and while he speaks, we try to imag
 Modeling is a process that aims to capture key concepts of reality.
 And modeling means also to ignore anything irrelevant, and this is as same important as capturing relevant concepts.
 
-TODO IMAGE
+![unshaped reality converted to shaped abstract model converted to concrete implementation model](modelling.png)
 
 The reality contains everything important, all details, everything we know and much more that is hidden.
 We are not able to describe the whole reality and describing it is not really our goal.
@@ -28,7 +28,7 @@ And in the end, we convert all this knowledge into a source code.
 Once we have the abstract model in our heads and it is also described by documentation and in the diagrams, we should validate it.
 Validation is done by domain experts who have to confirm or refute the abstract model.
 
-TODO IMAGE reality is modeled by an abstract model and abstract model is validated by reality
+![reality is modeled by abstract model and abstract model is validated by reality](validation.png)
 
 Validation and modeling are bounded continuous processes.
 The project evolves, our domain understanding evolves, so the model evolves as well.

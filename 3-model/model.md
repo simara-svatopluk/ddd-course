@@ -47,3 +47,19 @@ There are always many ways how to implement the abstract model.
 The implementation can be made in smooth and simple or in overcomplicated way. It is surprisingly easy to end up with a complicated solution.
 But we will take the effort and introduce strategies and concepts that will help us simplify the model.
 
+## Concrete associations
+
+Associations between objects are naturally two-ways. But it's really difficult to think, work and program with two-ways associations. We try to simplify them if it's possible.
+
+Imagine you are modeling a product and it's price. We can imagine the price as a sticker on the product. The sticker is on the product and of course, the product is labeled with the sticker. So it seems there have to be a two-way association betwenn price and sticker objects.
+
+But does the price sticker care where is it stuck? We may find it irrelevant, so the association from product to price can be single-way. This simple change make thinking about product and price easier, and also the resulting code will be much easier.
+
+Two-way association is difficult to maintain and we should use it only where it is absolutely necessary.
+
+
+
+
+
+
+

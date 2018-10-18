@@ -19,6 +19,10 @@ We can convert the stories to use cases.
 To explain deaplier these use cases we can use diagrams, images.
 And in the end, we convert all this knowledge into a source code.
 
+> **Not only Data**
+> 
+> Most of us are great in modeling data. But what about modeling responsibilities, modeling behavior? Let's focus also on these aspects of modeling for a better result.
+
 ## Validation
 
 Once we have the abstract model in our heads and it is also described by documentation and in the diagrams, we should validate it.
@@ -35,8 +39,4 @@ Modeling is a difficult process, it is difficult to say where to start, how deep
 But we have one great tool that helps us, the language.
 Domain expert stories, terms that they repeat over and over again, all these are good starting points.
 The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
-
-> **Not only Data**
-> 
-> Most of us are great in modeling data. But what about modeling responsibilities, modeling behavior? Let's focus also on these aspects of modeling for a better result.
 

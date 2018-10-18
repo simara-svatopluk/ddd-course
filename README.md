@@ -41,8 +41,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 
 1. **Přehled** - přehled základních konceptů
 1. **Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce
-1. **Model** - jak přemýšlet jinak než v tabulkách
-1. **Implementační model** - zjednodušení modelu (agregáty, entity, value objekty)
+1. **Model** - jak přemýšlet jinak než v tabulkách, zjednodušení modelu (agregáty, entity, value objekty)
 1. **Implementace** - kód, testování, TDD
 1. **Repozitáře** - kde brát objekty, memory implementace
 1. **SQL/Doctrine Repozitáře** - Persistence, už skoro funkční aplikace

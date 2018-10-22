@@ -15,7 +15,7 @@ The reality contains everything important, all details, everything we know and m
 We are not able to describe the whole reality and describing it is not really our goal.
 
 We can tell stories that cover important concepts of reality.
-We can convert the stories to use cases.
+We can convert stories to use cases.
 To explain deeper these use cases we can use diagrams, images.
 And in the end, we convert all this knowledge into a source code.
 

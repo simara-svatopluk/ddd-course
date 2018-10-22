@@ -38,7 +38,7 @@ The project evolves, our domain understanding evolves, so the model evolves as w
 Modeling is a difficult process, it is difficult to say where to start, how deep should we go, what should we focus on, what to omit.
 But we have one great tool that helps us, the language.
 
-Domain expert stories, terms that they repeat over and over again, all these are good starting points.
+Domain expert stories, terms that experts repeat over and over again, all these are good starting points.
 The language also shapes the way we think, and when we think in domain terms, the abstract model is likely to be close to the reality.
 
 # Implementation Model

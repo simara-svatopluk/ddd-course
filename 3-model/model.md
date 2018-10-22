@@ -44,7 +44,7 @@ The language also shapes the way we think, and when we think in domain terms, th
 # Implementation Model
 
 There are always many ways how to implement the abstract model.
-The implementation can be made in smooth and simple or overcomplicated. It is surprisingly easy to end up with a complicated solution.
+The implementation can be smooth and simple or overcomplicated. It is surprisingly easy to end up with a complicated solution.
 But we will take the effort and introduce strategies and concepts that will help us simplify the model.
 
 ## Concrete Association

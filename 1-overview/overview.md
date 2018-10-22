@@ -1,4 +1,4 @@
-# 1. Overview
+# Overview
 
 Domain-driven design is a software design that focuses on understanding underlying business. It is useful for long-term projects because it leads to high-quality software that serves users. It helps when dealing with difficult problems, keeps track of core problems and prevents us from getting lost in the code.
 

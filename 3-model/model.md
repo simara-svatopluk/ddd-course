@@ -7,7 +7,7 @@ A customer wants to have a new functionality and while he speaks, we try to imag
 ## Modeling
 
 Modeling is a process that aims to capture key concepts of reality.
-Modeling also means to ignore anything irrelevant, and this is as same important as capturing relevant concepts.
+Modeling also means to ignore anything irrelevant, and this is as important as capturing relevant concepts.
 
 ![unshaped reality converted to shaped abstract model converted to concrete implementation model](modelling.png)
 

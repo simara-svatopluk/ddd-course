@@ -29,6 +29,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [Brno 3.10.](https://www.facebook.com/events/1833155483466249)
 1. **Jazyk** - 
   [materiály (en)](2-language/language.md) -
+  [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-2-jazyk) -
   [Ostrava 10.10.](https://www.facebook.com/events/164359401137716) -
   [Brno 24.10.](https://www.facebook.com/events/2188601447877078)
 1. **Model** -

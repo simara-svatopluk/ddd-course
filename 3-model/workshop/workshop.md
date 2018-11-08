@@ -25,3 +25,9 @@ Ultimátní cíl: **Jednoduchý fakturační systém**
 
 ## Programování
 
+Bez programování neuvidíte reálné prolbémy a benefity DDD.
+Pojďte si naimplementovat to, co jste se dozvěděli.
+
+* Připravil jsem repozitář, který si jenom naklonujete a hned programujete!
+* https://github.com/simara-svatopluk/ddd-course-workshop
+* Založte PR, a já Vám kód zreviduju (Ostrava do 28.11., Brno do 12.12.)

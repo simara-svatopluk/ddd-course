@@ -36,7 +36,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [Brno 24.10.](https://www.facebook.com/events/2188601447877078)
 1. **Model** -
   [materiály (en)](3-model/model.md) -
-  Ostrava 7.11. -
+  [Ostrava 7.11.](https://www.facebook.com/events/189432881986539/) -
   Brno 21.11.
 1. **Implementace** - Ostrava 5.12. - Brno 19.12.
 1. ...

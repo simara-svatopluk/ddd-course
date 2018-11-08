@@ -10,7 +10,7 @@
 
 ## Téma
 
-Navazujeme na minulý workshop na téma [jazyk](/2-language/workshop/workshop.md)
+Navazujeme na minulý workshop na téma **[jazyk](/2-language/workshop/workshop.md)**.
 
 Podnikatel chce fakturační systém pro drobné živnostníky, který bude sám využívat a pronajímat.  
 Ultimátní cíl: **Jednoduchý fakturační systém**

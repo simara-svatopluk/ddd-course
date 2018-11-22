@@ -15,13 +15,21 @@ Navazujeme na minulý workshop na téma **[jazyk](/2-language/workshop/workshop.
 Podnikatel chce fakturační systém pro drobné živnostníky, který bude sám využívat a pronajímat.  
 Ultimátní cíl: **Jednoduchý fakturační systém**
 
-## Výsledek workshopu
+## Výsledek workshopu - Brno
+
+### Proces vystavení
+![proces vystavení faktury](brno1.jpg)
+
+### Implemntační diagram tříd
+![implementační diagram tříd](brno2.jpg)
+
+## Výsledek workshopu - Ostrava
 
 ### Procesy + "diagram tříd"
 ![procesy + abstraktní model](ostrava1.jpg)
 
 ### Procesy + implementační diagram tříd
-![procesy + implementační model](ostrava2.jpg)
+![procesy + implementační diagram tříd](ostrava2.jpg)
 
 ## Programování
 

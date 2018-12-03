@@ -38,6 +38,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [materiály (en)](3-model/model.md) -
   [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-3-model) -
   [workshop](3-model/workshop/workshop.md) -
+  [záznam Brno](https://www.youtube.com/watch?v=oKN9a6JL54o) -
   [Ostrava 7.11.](https://www.facebook.com/events/189432881986539/) -
   [Brno 21.11.](https://www.facebook.com/events/277038186350190/)
 1. **Implementace** - Ostrava 5.12. - Brno 19.12.

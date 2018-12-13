@@ -121,15 +121,6 @@ But it is a good idea to reduce the number of different types so the code is eas
 For example our `Items::add(Item): Items` operation is almost closed as operate and returns `Items` and uses `Item` type.
 It is much easier to understand it than for example `Items::calculate(Calculator): Result`.
 
-## TDD
-
-There was (and will be) written about TDD lot, and I don't want to repeat others.
-
-I can strongly recommend [code retreat](https://www.coderetreat.org/) to start with TDD.
-When I attended the event for the first time it was mind-blowing for me and it helped me with testing much more than articles I read before.
-
-When we implement code modeled by DDD, it is easy, like very easy to implement it by TDD, so just do it.
-
 ## Layers
 
 To isolate the domain model code from the rest of the rest of system like persistence or user interface we use software layers.
@@ -168,3 +159,12 @@ If we make infrastructure interchangeable, we don't have to answer all these que
 we can postpone the decision or even change the decision later.
 
 From the code point of view, the infrastructure layer implements domain interfaces.
+
+## TDD
+
+There was (and will be) written about TDD lot, and I don't want to repeat others.
+
+I can strongly recommend [code retreat](https://www.coderetreat.org/) to start with TDD.
+When I attended the event for the first time it was mind-blowing for me and it helped me with testing much more than articles I read before.
+
+When we implement code modeled by DDD, it is easy, like very easy to implement it by TDD, so just do it.

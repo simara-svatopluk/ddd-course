@@ -150,7 +150,7 @@ To isolate the domain model code from the rest of the rest of system like persis
 The goal is to have the domain code as much separated as possible.
 We achieve this by interfaces that inverse dependencies and application objects that wrap domain objects but do not affect them.
 
-![image](...)
+![domain separated by interfaces](../1-overview/layers_isolation.png)
 
 ### Domain
 
@@ -166,17 +166,17 @@ We use this interface in the domain layer and thus keep the domain layer clean, 
 
 Infrastructure refers to the fundamental facilities and systems, it consists of sewers, pipes, electrical nets, water supply, garbage collecting and so on.
 
-Infrastructure is a set of services and systems that keep our alive.
+Infrastructure is a set of services and systems that keep us alive.
 But it is also a set of services that we don't want to bother with.
 Yes, we need sewers, but who wants to keep them clean? Or fix when something breaks?
 
 Infrastructure is also disposable, interchangeable.
-What happens when our business needs a better power supply? We simply change cables or supplier.
+What happens when our factory needs a better power supply? We simply change cables or supplier.
 We cannot rely on a specific infrastructure because it would tie us down.
 
 The software infrastructure has the same story, it makes our system alive, but it has to be interchangeable.
 Thanks to changeability we can postpone an important decision.
-What database do we have to use? Should it be Postgres, MySQL? should it be a relation at all?
+What database do we have to use? Should it be Postgres, MySQL? Does it have to be even relational?
 Will our application be transactional heavy or read heavy? How many requests will we serve?
 If we make infrastructure interchangeable, we don't have to answer all these questions at the beginning of the project,
 we can postpone the decision or even change the decision later.

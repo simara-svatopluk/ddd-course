@@ -136,7 +136,7 @@ To isolate the domain model code from the rest of the rest of system like persis
 The goal is to have the domain code as much separated as possible.
 We achieve this by interfaces that inverse dependencies and application objects that wrap domain objects but do not affect them.
 
-![domain separated by interfaces](../1-overview/layers_isolation.png)
+![domain separated by interfaces](layers_isolation.png)
 
 ### Domain
 

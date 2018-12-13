@@ -62,44 +62,30 @@ class Items {
 ### Side-effect free functions
 
 Value objects should contain functions that have no side-effects.
-The side-effect is anything that changes state and value objects must not change state.
+The side-effect is anything that changes system state or depends on the system state.
 
 Example of a method that has the side-effect
-
 ```php
-class Invoice
-{
-    /**
-     * @var Item[]
-     */
-    private $items;
-
-    //...
-
-    public function addItem(Item $item): void
+class Voucher {
+    public function isValid(DateTime $validUntil): bool
     {
-        $this->items[] = $item;
+        return $validUntil <= new DateTime();
     }
 }
 ```
 
-Can be refactored (uses `Items` from the previous section)
+This can be refactored to
 ```php
-class Invoice
-{
-    /**
-     * @var Items
-     */
-    private $items;
-
-    //...
-
-    public function addItem(Item $item): void
+class Voucher {
+    public function isValid(DateTime $validUntil, DatTime $now): bool
     {
-        $this->items = $items->add($item);
+        return $validUntil <= $now;
     }
 }
 ```
+
+Side-effect free functions guarantee that for the same input they always return the same output, so we can combine them without worrying about what will happen.
+They are also pretty easy to test.
 
 ### Closure of Operation
 In math, a set is closed under the operation if the performance of that operation on members of the set always produces a member of the same set.

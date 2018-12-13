@@ -2,7 +2,7 @@
 
 Modeling and discussing is fine, but without actual code, we lead only academical discussions.
 
-## Value objects
+## Value Objects
 
 We'll code value object `Items`, it represents a collection of value objects `Item`.
 
@@ -159,6 +159,19 @@ If we make infrastructure interchangeable, we don't have to answer all these que
 we can postpone the decision or even change the decision later.
 
 From the code point of view, the infrastructure layer implements domain interfaces.
+
+## Abstration
+
+We, programmers, tend to abstract a lot, because it is the way we solve problems.
+But what usually happens is that abstraction doesn't abstract in the way the real problems come.
+So usually abstraction only makes things worse.
+
+Another problem with abstractions is that they usually don't exist in the domain.
+So we end up with concepts and terms that don't have a domain name, that is against DDD.
+
+So I discourage you from abstractions, or as someone wise said:
+
+> Premature abstraction is worse than premature optimization.
 
 ## TDD
 

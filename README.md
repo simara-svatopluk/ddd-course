@@ -15,7 +15,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 
 * Přednášky + materiály dopředu + diskuze po přednášce
 * 1x za 4 týdny ve středu
-* v Ostravě a v Brně
+* v Brně ~a v Ostravě~ *(v Ostravě byla malá účast)*
 * Zdarma
 
 ## Přednášky

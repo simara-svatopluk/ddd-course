@@ -12,7 +12,7 @@ Value objects are immutable, it means they never change their state. The only wa
 
 ```php
 class Item {
-    //, For now, we don't care what is inside of Item
+    //For now, we don't care what is inside of Item
 }
 
 ```

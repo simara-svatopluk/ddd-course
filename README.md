@@ -43,7 +43,8 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [Brno 21.11.](https://www.facebook.com/events/277038186350190/)
 1. **Implementace** -
   [materiály (en)](4-implementation/implementation.md) -
-  ~Ostrava 5.12.~ - Brno 19.12.
+  ~Ostrava 5.12.~ -
+  [Brno 19.12.](https://www.facebook.com/events/1963793990589645)
 1. ...
 
 ## Připravená témata

@@ -43,6 +43,8 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [Brno 21.11.](https://www.facebook.com/events/277038186350190/)
 1. **Implementace** -
   [materiály (en)](4-implementation/implementation.md) -
+  [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-4-implementace/) -
+  [záznam Brno](https://www.youtube.com/watch?v=_9OyhJtebos) -
   ~Ostrava 5.12.~ -
   [Brno 19.12.](https://www.facebook.com/events/1963793990589645)
 1. ...

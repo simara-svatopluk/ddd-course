@@ -47,7 +47,10 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [záznam Brno](https://www.youtube.com/watch?v=_9OyhJtebos) -
   ~Ostrava 5.12.~ -
   [Brno 19.12.](https://www.facebook.com/events/1963793990589645)
-1. ...
+1. **Persistence** - Repozitáře + Doctrine -
+  [Brno 16.1.](https://www.facebook.com/events/226691471592602)
+1. **Read model** -
+  Brno 13.2.
 
 ## Připravená témata
 

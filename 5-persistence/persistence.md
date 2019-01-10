@@ -41,7 +41,7 @@ When we replace memory collections with persistent collections, everything works
 So we have benefits of the in-memory system - easy to understand and tests and we have also a persistent state.
 Persistent collections are called Repositories in DDD.
 
-![request-response system that looks like in-memory but collections are replaced by repositories](4-repository.png)
+![request-response system that looks like in-memory but collections are replaced by repositories](4-repository-2.png)
 
 ## Repository
 
@@ -80,4 +80,4 @@ When we use an advanced persistence tool, it usually deals with persistence by f
 But it's still possible to keep references to objects we used and flush them into storage after the domain use case is done.
 This system also allows us to use transactions if the persistence system supports them.
 
-![infrastructure middleware is responsible for flushing objects used by repositories](5-persistence.png)
+![infrastructure middleware is responsible for flushing objects used by repositories](5-persistence-2.png)

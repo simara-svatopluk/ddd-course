@@ -8,12 +8,12 @@ We'll discuss possibilities and how DDD deals with saving and loading the state.
 Typical system responses to a request, that is the basic functionality.
 Additionally, it usually does also job aside creating a response and this job has likely need to use persistence.
 
-IMAGE system creates a response for a request
+![system creates a response for a request](1-system.png)
 
 A typical web system lives in sequence - request, job, response, die.
 This means that it has to load all needed resources from persistence, process them, save them back to persistence and then return response (and then die).
 
-IMAGE system have to load for request data, process them, save changes and return a response
+![system have to load for request data, process them, save changes and return a response](2-system.png)
 
 The problem of such a system is that it mixes processing logic with persistence logic.
 It is difficult to understand such logic and it is difficult to test such a system.
@@ -30,7 +30,7 @@ They are generally not awesome and I don't recommend them.*
 Let's make a mental exercise - imagine a system that runs only in memory and processes requests sequentially.
 This system needs just collections of objects where it stores the state.
 
-IMAGE system runs continually, processing of requests uses memory collections and creates a response
+![system runs continually, processing of requests uses memory collections and creates a response](3-memory.png)
 
 Collections are part of the processing logic, so it is easy to understand and test the system.
 One important note - there is no save operation because collections have references to their objects and when an object changes, it is changed also in the collection.
@@ -41,7 +41,7 @@ When we replace memory collections with persistent collections, everything works
 So we have benefits of the in-memory system - easy to understand and tests and we have also a persistent state.
 Persistent collections are called Repositories in DDD.
 
-IMAGE request-response system that looks like in-memory but collections are replaced by repositories
+![request-response system that looks like in-memory but collections are replaced by repositories](4-repository.png)
 
 ## Repository
 
@@ -80,4 +80,4 @@ When we use an advanced persistence tool, it usually deals with persistence by f
 But it's still possible to keep references to objects we used and flush them into storage after the domain use case is done.
 This system also allows us to use transactions if the persistence system supports them.
 
-IMAGE application middleware is responsible for flushing objects used by repositories
+![application middleware is responsible for flushing objects used by repositories](5-persistence.png)

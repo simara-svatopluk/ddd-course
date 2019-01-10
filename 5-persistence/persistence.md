@@ -74,10 +74,10 @@ If there was a persist operation, we'd have problems with transactions - one obj
 The solution is simple.
 Object persistence is not the repository's responsibility.
 Someone else is responsible for the persistence.
-We can use an application middleware that is responsible for the persistence.
+We can use an infrastructure middleware that is responsible for the persistence.
 
 When we use an advanced persistence tool, it usually deals with persistence by flushing an object manager.
 But it's still possible to keep references to objects we used and flush them into storage after the domain use case is done.
 This system also allows us to use transactions if the persistence system supports them.
 
-![application middleware is responsible for flushing objects used by repositories](5-persistence.png)
+![infrastructure middleware is responsible for flushing objects used by repositories](5-persistence.png)

@@ -54,6 +54,8 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 1. **Read model** -
   Brno 13.2.
 
+## Demo
+
 Veškerý kód z dem a workshopů naleznete v repozitáři [ddd-course-workshop](https://github.com/simara-svatopluk/ddd-course-workshop).
 
 ## Připravená témata

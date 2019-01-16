@@ -45,7 +45,6 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [materiály (en)](4-implementation/implementation.md) -
   [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-4-implementace/) -
   [záznam Brno](https://www.youtube.com/watch?v=_9OyhJtebos) -
-  ~Ostrava 5.12.~ -
   [Brno 19.12.](https://www.facebook.com/events/1963793990589645)
 1. **Persistence** - *Repozitáře + Doctrine* -
   [materiály (en)](5-persistence/persistence.md) -
@@ -61,18 +60,16 @@ Veškerý kód z dem a workshopů naleznete v repozitáři [ddd-course-workshop]
 
 ## Připravená témata
 
-1. **Přehled** - přehled základních konceptů
-1. **Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce
-1. **Model** - jak přemýšlet jinak než v tabulkách, zjednodušení modelu (agregáty, entity, value objekty)
-1. **Implementace** - kód, testování, TDD
-1. **Repozitáře** - kde brát objekty, memory implementace
-1. **SQL/Doctrine Repozitáře** - Persistence, už skoro funkční aplikace
+1. **✓ Přehled** - přehled základních konceptů
+1. **✓ Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce
+1. **✓ Model** - jak přemýšlet jinak než v tabulkách, zjednodušení modelu (agregáty, entity, value objekty)
+1. **✓ Implementace** - kód, testování, TDD
+1. **✓ Repozitáře** - kde brát objekty, memory implementace
+1. **✓ SQL/Doctrine Repozitáře** - Persistence, už skoro funkční aplikace
 1. **Read model** - Jak nad ním přemýšlet, více modelů v jedné aplikaci
 1. **Read model SQL Repozitář** - kde brát DTO v reálné aplikaci
-1. **Commandy** - Oddělení části aplikace měnící stav
-1. **Formuláře/Konzole/Api** - Funkční aplikace napojená na cokoliv si vzpomenete
-
-... další témata kolem bounded kontextů a jejich propojení...
+1. **? Commandy** - Oddělení části aplikace měnící stav
+1. **? Formuláře/Konzole/Api** - Funkční aplikace napojená na cokoliv si vzpomenete
 
 ## Cílová skupina
 

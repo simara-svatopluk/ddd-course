@@ -51,6 +51,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [materiály (en)](5-persistence/persistence.md) -
   [demo](https://github.com/simara-svatopluk/ddd-course-workshop) -
   [slidy](https://www.slideshare.net/Svatoplukimara/ddd-kurz-5-persistence-doctrine) -
+  [záznam Brno](http://bit.ly/ddd-5-cast) -
   [Brno 16.1.](https://www.facebook.com/events/226691471592602)
 1. **Read model** -
   Brno 13.2.

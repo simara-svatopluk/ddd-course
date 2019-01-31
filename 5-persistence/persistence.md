@@ -81,3 +81,5 @@ But it's still possible to keep references to objects we used and flush them int
 This system also allows us to use transactions if the persistence system supports them.
 
 ![infrastructure middleware is responsible for commiting objects used by repositories](5-persistence-2.png)
+
+The object manager fetches data from persistence and convert them to entities. For tracking and flushing changes in entities it uses [Unit of Work](https://martinfowler.com/eaaCatalog/unitOfWork.html).

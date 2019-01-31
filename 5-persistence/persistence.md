@@ -76,8 +76,8 @@ Object persistence is not the repository's responsibility.
 Someone else is responsible for the persistence.
 We can use an infrastructure middleware that is responsible for the persistence.
 
-When we use an advanced persistence tool, it usually deals with persistence by commiting a unit of work.
-But it's still possible to keep references to objects we used and commit them into storage after the domain use case is done.
+When we use an advanced persistence tool, it usually deals with persistence by flushing an object manager.
+But it's still possible to keep references to objects we used and flush them into storage after the domain use case is done.
 This system also allows us to use transactions if the persistence system supports them.
 
-![infrastructure middleware is responsible for commiting objects used by repositories](5-persistence-3.png)
+![infrastructure middleware is responsible for commiting objects used by repositories](5-persistence-2.png)

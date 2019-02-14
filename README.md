@@ -13,9 +13,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
 
 ## Forma
 
-* Přednášky + materiály dopředu + diskuze po přednášce
-* 1x za 4 týdny ve středu
-* v Brně ~a v Ostravě~ *(v Ostravě byla malá účast)*
+* Záznamy + Materiály + Kód
 * Zdarma
 
 ## Přednášky
@@ -54,13 +52,14 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [záznam Brno](http://bit.ly/ddd-5-cast) -
   [Brno 16.1.](https://www.facebook.com/events/226691471592602)
 1. **Read model & CQRS** -
-  Brno 13.2.
+  [slidy](https://www.slideshare.net/Svatoplukimara/read-model-cqrs) -
+  [Brno 13.2.](https://www.facebook.com/events/376353809813879)
 
 ## Demo
 
 Veškerý kód z dem a workshopů naleznete v repozitáři [ddd-course-workshop](https://github.com/simara-svatopluk/ddd-course-workshop).
 
-## Připravená témata
+## Probraná témata
 
 1. **✓ Přehled** - přehled základních konceptů
 1. **✓ Jazyk** - pár příkladů a pár doporučení jak přemýšlet v daném jazyce
@@ -68,10 +67,9 @@ Veškerý kód z dem a workshopů naleznete v repozitáři [ddd-course-workshop]
 1. **✓ Implementace** - kód, testování, TDD
 1. **✓ Repozitáře** - kde brát objekty, memory implementace
 1. **✓ SQL/Doctrine Repozitáře** - Persistence, už skoro funkční aplikace
-1. **Read model** - Jak nad ním přemýšlet, více modelů v jedné aplikaci
-1. **Read model SQL Repozitář** - kde brát DTO v reálné aplikaci
-1. **? Commandy** - Oddělení části aplikace měnící stav
-1. **? Formuláře/Konzole/Api** - Funkční aplikace napojená na cokoliv si vzpomenete
+1. **✓ Read model** - Jak nad ním přemýšlet, více modelů v jedné aplikaci
+1. **✓ Read model SQL Repozitář** - kde brát DTO v reálné aplikaci
+1. **✓ Commandy** - Oddělení části aplikace měnící stav
 
 ## Cílová skupina
 

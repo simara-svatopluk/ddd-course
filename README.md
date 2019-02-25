@@ -53,6 +53,7 @@ Domain-Driven Design... praktický přístup k vývoji software zaměřený na c
   [Brno 16.1.](https://www.facebook.com/events/226691471592602)
 1. **Read model & CQRS** -
   [slidy](https://www.slideshare.net/Svatoplukimara/read-model-cqrs) -
+  [z8znam Brno](https://www.youtube.com/watch?v=tycbhj7kcQo) -
   [Brno 13.2.](https://www.facebook.com/events/376353809813879)
 
 ## Demo

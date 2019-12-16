@@ -1,3 +1,7 @@
+# [DDD workshop 20. 2.–21. 2. 2020](https://www.skoleninasbavi.cz/skoleni/domain-driven-design-workshop/)
+
+V únoru pořádám 2. verzi kurzu. Intenzivně, hutně, a s doménovým expertem. Naučíte se, jak přemýšlet v doménově, jak modelovat, a na závěr si odnesete funkční aplikaci. Více informací a přihlášky najdete na [stránkách workshopu](https://www.skoleninasbavi.cz/skoleni/domain-driven-design-workshop/).
+
 # Kurz Domain-Driven Design
 
 ![DDD logo](ddd_sm.png)

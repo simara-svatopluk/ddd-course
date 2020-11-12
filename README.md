@@ -1,6 +1,20 @@
-# Kurz Domain-Driven Design
+# Domain-Driven Design Course
 
 ![DDD logo](ddd_sm.png)
+
+Domain-Driven Design... A practical approach to software development that focuses on target problematics - the domain. DDD is about thinking, looking at the problem from different angles and also about modeling. It isn’t connected to any framework, technology or a concrete programming language.
+
+The following course (online, and free) is in Czech, however supporting materials are at least in English
+* [Overview](1-overview/overview.md)
+* [Language](2-language/language.md)
+* [Model](3-model/model.md)
+* [Implementation](4-implementation/implementation.md)
+* [Persistence](5-persistence/persistence.md)
+
+## Demo
+We created useful code examples during the workshop part of the course. You can find it in the [ddd-course-workshop](https://github.com/simara-svatopluk/ddd-course-workshop) repository.
+
+# Kurz Domain-Driven Design
 
 Domain-Driven Design... praktický přístup k vývoji software zaměřený na cílovou problematiku - doménu. DDD je o přemýšlení, náhledu a modelování, není spojený s žádným frameworkem, a vlastně ani žádnou technologií či konkrétním programovacím jazykem.
 

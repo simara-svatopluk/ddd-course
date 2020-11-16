@@ -4,7 +4,7 @@
 
 Domain-Driven Design... A practical approach to software development that focuses on target problematics - the domain. DDD is about thinking, looking at the problem from different angles and also about modeling. It isn’t connected to any framework, technology or a concrete programming language.
 
-The following course (online, and free) is in Czech, however supporting materials are at least in English
+The course itself is in Czech (by the way online and free), however supporting materials are at least in English
 * [Overview](1-overview/overview.md)
 * [Language](2-language/language.md)
 * [Model](3-model/model.md)
